@@ -1,0 +1,241 @@
+/* team card */
+.th-team-box {
+  position: relative;
+  padding: 40px 70px 28px 0px;
+  width: 420px;
+}
+
+.th-team-box :before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  left: 70px;
+  bottom: 40px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -ms-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.th-team-box::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 70px;
+  bottom: 40px;
+  width: 0px;
+  border-radius: 10px;
+  transition: all 600ms ease;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #f5bd5e),
+    color-stop(100, #f372b8)
+  );
+  background-image: -webkit-linear-gradient(top, #f5bd5e 0%, #f372b8 100%);
+  background-image: linear-gradient(to bottom, #f5bd5e 0%, #f372b8 100%);
+}
+
+.th-team-box:hover::after {
+  width: 84%;
+}
+
+.th-team-icon-list {
+  position: absolute;
+  right: 25px;
+  top: 75px;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.th-team-list-item {
+  list-style: none;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.th-team-social-icon {
+  position: relative;
+  color: #332a7c;
+  font-size: 35px !important;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.th-team-box:hover .th-team-member-name,
+.th-team-box:hover .th-team-social-icon,
+.th-team-box:hover .th-team-member-post {
+  color: #ffffff;
+}
+
+.th-team-member-img {
+  display: block;
+  z-index: 1;
+  position: relative;
+  width: 85%;
+  border-radius: 8px;
+}
+
+.th-team-member-content {
+  text-align: left;
+  z-index: 1;
+  padding: 15px 15px 10px 90px;
+}
+
+.th-team-member-name {
+  position: relative;
+  color: #332a7c;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 1;
+  line-height: 1.2em;
+}
+
+.th-team-member-post {
+  position: relative;
+  margin-top: 0;
+  color: #777777;
+  font-weight: 350;
+  z-index: 1;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+  .th-team-box {
+    position: relative;
+    padding: 35px 50px 25px 0px;
+    width: 400px;
+  }
+  .th-team-member-img {
+    width: 72.5%;
+    left: 20px;
+  }
+  .th-team-box:hover::after {
+    width: 83%;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 768px) {
+  .th-team-box {
+    position: relative;
+    padding: 35px 50px 25px 0px;
+    width: 348px;
+  }
+  .th-team-member-img {
+    width: 75%;
+    left: 20px;
+  }
+  .th-team-box:hover::after {
+    width: 80%;
+  }
+  .th-team-member-name,
+  .th-team-member-post {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .th-team-box {
+    position: relative;
+    padding: 35px 25px 20px 0px;
+    width: 332px;
+  }
+
+  .th-team-box:hover::after {
+    width: 79%;
+  }
+
+  .th-team-member-img {
+    width: 70%;
+    left: 15px;
+  }
+
+  .th-team-icon-list {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .th-team-box {
+    position: relative;
+    padding: 35px 15px 20px 0px;
+    width: 300px;
+  }
+
+  .th-team-box:hover::after {
+    width: 76.5%;
+  }
+
+  .th-team-member-img {
+    width: 60%;
+    left: 25px;
+  }
+
+  .th-team-icon-list {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .th-team-social-icon {
+    font-size: 28px !important;
+  }
+
+  .th-team-member-name {
+    font-weight: 600;
+  }
+
+  .th-team-member-post {
+    font-weight: 250;
+  }
+}
+
+/* team card ends */
+
+/* team home */
+.th-team-root {
+  padding-top: 5vh;
+}
+
+.th-team-contanier {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.th-team-wrapper {
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 4vh auto;
+}
+
+.th-team-header {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: "#45A650";
+  line-height: 60px;
+}
+
+/* team home ends */

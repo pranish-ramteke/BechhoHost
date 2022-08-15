@@ -1,0 +1,341 @@
+.th-links-list-item {
+  font-family: "Nunito sans";
+  color: #959595;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: 600;
+  list-style: none;
+}
+
+.th-links-list-item:hover {
+  text-decoration: none;
+  color: #332a7c;
+}
+
+.active {
+  text-decoration: none;
+  color: #332a7c;
+}
+
+.th-links-list-item > p {
+  margin-bottom: 8px;
+}
+
+.th-aboutus-container {
+  margin-top: 5rem;
+}
+
+/* content style of every page */
+.th-about-us-content,
+.th-carrers-content,
+.th-privacy-content,
+.th-return-content,
+.th-terms-content,
+.th-affiliate-content,
+.th-partner-content,
+.th-advertise-content {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.th-careers-list,
+.th-privacy-list {
+  font-family: "Merriweather";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.th-terms-list,
+.th-buyer-term-list,
+.th-seller-term-list {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.th-about-us-header,
+.th-blogs-header,
+.th-career-header,
+.th-faq-header,
+.th-privacy-header,
+.th-return-header,
+.th-terms-header,
+.th-advertise-header,
+.th-affiliate-header,
+.th-partner-header,
+.th-buyer-term-header,
+.th-seller-term-header,
+.th-sell-header {
+  color: #332a7c;
+}
+
+@media only screen and (max-width: 768px) {
+  .th-about-us-container,
+  .th-blogs-container,
+  .th-carriers-container,
+  .th-faq-container,
+  .th-privacy-container,
+  .th-return-container,
+  .th-terms-container,
+  .th-advertise-container,
+  .th-affiliate-container,
+  .th-partner-container,
+  .th-buyer-term-container,
+  .th-seller-term-container,
+  .th-sell-container {
+    margin-top: 4rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .th-about-us-header,
+  .th-blogs-header,
+  .th-career-header,
+  .th-faq-header,
+  .th-privacy-header,
+  .th-return-header,
+  .th-terms-header,
+  .th-advertise-header,
+  .th-affiliate-header,
+  .th-partner-header,
+  .th-buyer-term-header,
+  .th-seller-term-header,
+  .th-sell-header {
+    font-size: 25px;
+  }
+
+  .th-about-us-content,
+  .th-carrers-content,
+  .th-privacy-content,
+  .th-return-content,
+  .th-terms-content,
+  .th-affiliate-content,
+  .th-partner-content,
+  .th-advertise-content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .th-carrers-list,
+  .th-careers-list,
+  .th-privacy-list,
+  .th-terms-list,
+  .th-buyer-term-list,
+  .th-seller-term-list {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+  .th-mob-return-div {
+    margin-bottom: 12.5rem;
+  }
+}
+
+@media only screen and (min-width: 385px) and (max-width: 780px) {
+  .th-mob-advertise-div {
+    margin-bottom: 16.5rem;
+  }
+  .th-mob-partner-div {
+    margin-bottom: 8rem;
+  }
+}
+
+/* FAQ */
+.th-faq-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.th-faq-hr {
+  border: 1px solid;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.th-faq-box-wraper {
+  max-width: 55vw;
+}
+.th-faq-box {
+  min-width: 55vw;
+  padding: 22.5px 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.th-faq-query {
+  margin: 0 !important;
+  font-family: Poppins;
+  font-size: 22px;
+  color: #332a7c;
+  opacity: 0.6;
+}
+
+.th-faq-plus,
+.th-faq-minus {
+  color: #332a7c;
+  opacity: 0.6;
+}
+
+.th-faq-query:hover,
+.th-faq-plus:hover,
+.th-faq-minus:hover {
+  opacity: 1;
+}
+
+.th-faq-answer {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Nunito sans";
+  color: #959595;
+}
+
+.th-faq-br {
+  margin-bottom: 5vh;
+}
+@media only screen and (max-width: 780px) {
+  .th-faq-container {
+    padding: 0 15px;
+    margin-top: 15px;
+  }
+  .th-faq-box-wraper,
+  .th-faq-box {
+    min-width: 85vw;
+  }
+  .th-faq-query {
+    font-size: 17px;
+  }
+}
+/* FAQ ends */
+
+/* Blogs  */
+.th-blogweb-img-card-top,
+.th-blogweb-img-card-bottom {
+  width: 32.5% !important;
+}
+.th-blogweb-img-card-mid {
+  width: 49% !important;
+}
+.th-blogweb-img-card-top,
+.th-blogweb-img-card-bottom,
+.th-blogweb-img-card-mid {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.th-blog-img {
+  width: 100%;
+  height: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #696464;
+  opacity: 0.9;
+}
+
+.eth-blogs-effect-img-card {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.th-blogs-title {
+  font-size: 18px;
+  font-family: "Nunito sans";
+  opacity: 0.9;
+  color: #332a7c;
+}
+
+.th-blog-img:hover,
+.th-blogs-title:hover {
+  opacity: 1;
+}
+
+.th-blog-page-img {
+  width: 100%;
+}
+
+.th-blog-page-header {
+  color: #332a7c;
+  font-family: "Merriweather";
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.th-blog-page-content {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.th-blog-page-list {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media only screen and (min-width: 1020px) {
+  .th-blogs-img-caption {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    height: 3em;
+    text-transform: capitalize;
+    backface-visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .th-blogmob-img-card {
+    width: 49%;
+  }
+  .th-blog-img {
+    height: 160px;
+  }
+  .th-blogs-title {
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    text-align: center;
+    color: #332a7c;
+  }
+  .th-blog-page-mob-container {
+    margin-top: 4.5rem !important;
+  }
+  .th-blog-page-img {
+    height: 280px;
+  }
+
+  .th-blog-page-header {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .th-blog-page-content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .th-blog-page-list {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+/* Blogs end */

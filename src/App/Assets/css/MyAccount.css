@@ -1,0 +1,684 @@
+/* my bids and my items common */
+.th-mybids-header,
+.th-myitems-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #332a7c;
+}
+
+.th-mybids-card,
+.th-myitems-card {
+  margin-bottom: 28px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.th-myitems-card {
+  width: 540px !important;
+}
+
+.th-mybids-title,
+.th-myitems-bids-offerd,
+.th-myitems-title {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  color: #332a7c;
+}
+
+.th-ask-price,
+.th-offered-price,
+.th-bid-status,
+.th-myitems-ask-price {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #332a7c;
+  margin-right: 10px;
+}
+
+.th-mybids-price,
+.th-mybids-status,
+.th-myitems-price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.th-mybids-price,
+.th-myitems-price {
+  font-weight: 600;
+  color: #332a7c;
+}
+/*  */
+
+/* my bids only */
+.th-mybids-card-image {
+  width: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+}
+
+.th-mybids-card-box {
+  /* width: 320px; */
+  padding: 20px 20px;
+}
+
+.th-mybids-status {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.th-mybid-status-chk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.th-paynow-btn {
+  background: #ffbe51;
+  border-radius: 4px;
+  padding: 0px 8px 2px 8px;
+  cursor: pointer;
+}
+
+.th-paynow {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #332a7c;
+}
+
+.th-bids-offered-price-title,
+.th-bids-sell-price-title,
+.th-bids-sCharge-title {
+  font-family: "Nunito sans";
+  font-size: 24px;
+  color: #999999;
+}
+
+.th-bids-offered-price,
+.th-bids-s-charge,
+.th-bids-sell-price {
+  font-family: "Lato";
+  font-size: 24px;
+}
+.th-bids-offered-price {
+  color: #332a7c;
+}
+
+.th-bids-s-charge {
+  color: #ca4646;
+}
+
+.th-bids-sell-price {
+  color: #39ac45;
+}
+
+@media only screen and (min-width: 1120px) {
+  .th-mybids-card-image {
+    height: 200px;
+  }
+  .th-bids-modal-hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .th-mybids-card {
+    flex-wrap: wrap !important;
+    width: 330px !important;
+    justify-content: center;
+  }
+
+  .th-mybids-card-image,
+  .th-mybids-card-box {
+    width: 330px !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .th-my-mids-mob,
+  .th-my-items-mob {
+    margin-top: 4rem !important;
+  }
+
+  /* for coloumn in my-bids file*/
+  .th-mybids-col {
+    justify-content: center !important;
+  }
+  /*  */
+  .th-mybids-card {
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    justify-content: center;
+  }
+
+  .th-mybids-card-image,
+  .th-mybids-card-box {
+    width: 100% !important;
+  }
+
+  .th-mybids-card-image {
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0;
+  }
+
+  .th-mybids-title,
+  .th-ask-price,
+  .th-offered-price,
+  .th-bid-status,
+  .th-mybids-price,
+  .th-mybids-status,
+  .th-paynow {
+    font-size: 15px !important;
+  }
+
+  .th-mybids-header,
+  .th-myitems-header {
+    font-size: 26px;
+  }
+
+  .th-bids-offered-price-title,
+  .th-bids-sell-price-title,
+  .th-bids-sCharge-title,
+  .th-bids-offered-price,
+  .th-bids-s-charge,
+  .th-bids-sell-price {
+    font-size: 15px;
+  }
+  .th-bids-modal-hr {
+    margin: 0 !important;
+  }
+  .th-mybids-img-div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .th-mybids-card,
+  .th-mybids-card-image,
+  .th-mybids-card-box {
+    width: 280px;
+  }
+  .th-mybids-header {
+    font-size: 24px;
+  }
+  .th-bids-offered-price-title,
+  .th-bids-sell-price-title,
+  .th-bids-sCharge-title,
+  .th-bids-offered-price,
+  .th-bids-s-charge,
+  .th-bids-sell-price {
+    font-size: 12.5px;
+  }
+}
+
+/* my bids only ends */
+
+/* my items only */
+.th-myitems-card-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.th-myitems-card-box {
+  padding: 20px;
+}
+
+.th-myitems-bids-offerd {
+  font-size: 22px !important;
+}
+
+.th-myitems-offered-price,
+.th-myitems-bidder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  color: #332a7c;
+}
+
+.th-myitems-bidlist {
+  overflow-y: scroll;
+  height: 90px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefo x*/
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.th-myitems-bidlist::-webkit-scrollbar {
+  display: none;
+}
+
+.th-myitems-offered-price {
+  font-size: 16px;
+}
+
+.th-myitems-bidder {
+  font-size: 16px;
+}
+
+.th-myitems-bid-details {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #332a7c;
+}
+
+.th-myitems-bid-approve,
+.th-myitems-bid-decline {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+}
+.th-myitems-bid-approve {
+  padding: 4px 15px;
+  color: #ffffff;
+  border: 1px solid #39ac45;
+  background: #39ac45;
+}
+
+.th-myitems-bid-decline {
+  padding: 4px 15px;
+  color: #ca4646;
+  border: 1px solid #ca4646;
+  background: #ffffff;
+}
+
+.th-bidlist-empty-msg {
+  font-size: 20px;
+  color: #ca4646;
+  font-family: "Poppins";
+  line-height: 20px;
+}
+
+.th-bidlist-accept-msg {
+  font-size: 20px;
+  color: #39ac45;
+  font-family: "Poppins";
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .th-myitems-card {
+    width: 332px !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .th-myitems-card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .th-myitems-card-image {
+    width: 320px;
+  }
+  .th-myitems-ask-price,
+  .th-myitems-price,
+  .th-myitems-price,
+  .th-myitems-offered-price,
+  .th-myitems-bidder {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .th-myitems-ask-price {
+    font-size: 15px;
+  }
+
+  .th-myitems-bid-details,
+  .th-myitems-bid-decline,
+  .th-myitems-bid-approve {
+    font-size: 13px;
+  }
+
+  .th-myitems-bid-details {
+    line-height: 25px;
+  }
+
+  .th-myitems-bid-approve,
+  .th-myitems-bid-decline {
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding: 0.375rem 0.75rem;
+  }
+
+  .th-myitems-bid-approve {
+    margin-bottom: 8px;
+  }
+}
+/* my items only ends */
+
+/* sell page */
+/* step 1 */
+.th-sell-form-item-wraper {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 35px;
+  margin-bottom: 2rem;
+}
+
+.th-sell-form-item-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #332a7c;
+}
+
+.th-sell-form-input,
+.th-sell-form-input-price {
+  background: #ebeaf2 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  width: 350px !important;
+  height: fit-content !important;
+  padding: 16px;
+}
+
+.th-sell-form-input-label,
+.th-sell-form-input {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #332a7c;
+}
+
+.th-sell-form-image-box {
+  /* width: 220px;
+  height: 160px; */
+  padding: 10px 8px;
+  border: 2px solid rgba(51, 42, 124, 0.5);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.th-sell-from-img-upload-btn {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.th-sell-from-img-upload-btn input[type="file"] {
+  -webkit-appearance: none;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  opacity: 0;
+}
+
+.th-sell-from-img-upload-circle {
+  position: absolute;
+  font-size: 40px;
+  left: 16px;
+  top: -4px;
+  color: #332a7c;
+}
+
+.th-sell-form-textarea {
+  background: rgba(51, 42, 124, 0.2);
+  border-radius: 10px;
+  /* padding: 10px; */
+  color: #332a7c;
+}
+
+.th-sell-form-continue,
+.th-sell-form-post {
+  background: #ffa000;
+  padding: 8px 48px;
+  font-size: 20px;
+  color: #332a7c;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.th-sell-form-back-btn {
+  cursor: pointer;
+  color: #332a7c;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  padding: 4px 16px;
+  font-size: 20px;
+  color: #332a7c;
+  border-radius: 10px;
+  border: 1.5px solid #ffa000 !important;
+}
+
+.th-sell-form-back-btn:hover {
+  border-color: #ffffff;
+  color: #332a7c;
+  background: #ffa000;
+}
+
+/* step 2 */
+@media only screen and (min-width: 1020px) {
+  .th-sell-form-qna-list {
+    padding: 10px 120px;
+  }
+}
+
+.th-sell-form-item-list {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #332a7c;
+}
+
+.th-sell-form-qna-list {
+  overflow-y: scroll;
+  max-height: 320px;
+}
+
+/* width */
+.th-sell-form-qna-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.th-sell-form-qna-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 8px;
+}
+
+/* Handle */
+.th-sell-form-qna-list::-webkit-scrollbar-thumb {
+  background: #332a7c;
+  opacity: 0.2;
+  border-radius: 10px;
+}
+
+.th-sell-form-qna-ans,
+.th-sell-form-qna-ques {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #332a7c;
+}
+
+.th-sell-form-qna-ans {
+  font-weight: 600 !important;
+}
+
+input[type="input"]:focus,
+button:focus {
+  outline: none !important;
+}
+
+/* step circle part*/
+.th-sell-form-step-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ebeaf2;
+  border: 4px solid;
+  box-sizing: border-box;
+}
+
+.th-sell-form-step-line {
+  border: 2px solid #ffb02c;
+  height: 0 !important;
+  width: 60px;
+}
+
+.th-sell-form-step {
+  position: relative;
+  top: 32px;
+  left: 20px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: #332a7c;
+}
+/*  */
+
+@media only screen and (max-width: 768px) {
+  .th-sell-mob-div {
+    margin-top: 4rem !important;
+  }
+  .th-sell-form-item-wraper {
+    box-shadow: none !important;
+    padding: 4px 12px !important;
+    margin-bottom: 0 !important;
+  }
+  .th-sell-form-input {
+    width: 100% !important;
+    padding: 12px !important;
+  }
+  .th-sell-form-input-price {
+    width: 200px !important;
+    padding: 8px !important;
+  }
+  /* .th-sell-form-image-box {
+    width: 160px !important;
+    height: 120px !important;
+  } */
+  .th-sell-form-item-header {
+    font-size: 18px;
+  }
+  .th-sell-form-input-label,
+  .th-sell-form-input,
+  .th-sell-form-qna-ans,
+  .th-sell-form-qna-ques,
+  .th-sell-form-item-list {
+    font-size: 14.5px;
+  }
+  .th-sell-form-continue,
+  .th-sell-form-post {
+    padding: 6px 36px !important;
+    font-size: 16px;
+  }
+  .th-sell-form-back-btn {
+    padding: 2px 12px !important;
+    font-size: 12px;
+  }
+  /* step circle part */
+  .th-sell-form-step-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ebeaf2;
+    border: 2.5px solid;
+  }
+
+  .th-sell-form-step-line {
+    border: 1.5px solid #ffb02c;
+  }
+
+  .th-sell-form-step {
+    position: relative;
+    top: 24px;
+    left: 12px;
+    font-size: 18px;
+  }
+
+  /*  */
+}
+
+@media only screen and (max-width: 320px) {
+  .th-sell-form-item-header {
+    font-size: 16px;
+  }
+  .th-sell-form-input-label,
+  .th-sell-form-input,
+  .th-sell-form-qna-ans,
+  .th-sell-form-qna-ques,
+  .th-sell-form-item-list {
+    font-size: 13px;
+  }
+  .th-sell-form-input-price {
+    padding: 5px !important;
+    width: 160px !important;
+  }
+}
+
+/* sell page ends */
+
+/* my-profile */
+.th-myprofile-card-image {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #332c5d;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 780px) {
+  .th-my-profile-mob {
+    margin-top: 6rem !important;
+  }
+
+  .th-myprofile-card-image {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #332c5d;
+    border-radius: 50%;
+  }
+}
+/* my-profile */

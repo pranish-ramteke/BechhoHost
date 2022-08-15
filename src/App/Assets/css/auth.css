@@ -1,0 +1,162 @@
+.left-box {
+  background: #332a7c;
+  width: 300px;
+}
+
+.left-box-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+.wraper {
+  padding: 3.5rem 6rem;
+}
+
+.right-box {
+  width: 750px;
+}
+
+.right-box-header {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.input-item {
+  border-bottom: 1px solid #000000;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.change-method {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #63afff;
+  cursor: pointer;
+}
+
+.submit {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+  background: #63afff;
+  border-radius: 5px;
+}
+
+.input-item:focus,
+button:focus {
+  outline: none;
+}
+
+.query,
+.login,
+.signup-option {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.query,
+.signup-option {
+  color: #000000;
+}
+
+.login {
+  color: #63afff;
+}
+
+.google,
+.facebook {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+@media only screen and (max-width: 780px) {
+  .th-auth-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .wraper {
+    padding: 16px 10px !important;
+    margin-top: 0 !important;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+
+  .btn-wraper {
+    justify-content: space-between !important;
+  }
+
+  .right-box-header,
+  .left-box-header {
+    font-size: 24px;
+  }
+
+  .submit,
+  .input-item {
+    font-size: 20px;
+  }
+
+  .google,
+  .facebook {
+    font-size: 18px;
+  }
+  .th-auth-modal-back {
+    border: 1px solid #ff6f00;
+    padding: 1px 8px;
+    border-radius: 8px;
+    background: #fff;
+    color: #ff6f00;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 370px) {
+  .wraper {
+    padding: 16px 10px !important;
+    margin-top: 0 !important;
+  }
+}
+
+.th-auth-modal-background {
+  /* background-color: #aaa9ad; */
+  background-color: #d4d5e6;
+}

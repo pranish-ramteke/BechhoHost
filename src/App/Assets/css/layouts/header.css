@@ -1,0 +1,163 @@
+/* header for web version */
+.dropdown a,
+.dropleft a,
+.dropright a,
+.dropup a {
+  padding: 0.4rem !important;
+  color: #332a7c !important;
+  margin-top: 4px;
+}
+
+.th-location-btn {
+  padding: 5px 10px !important;
+  border-radius: 4px;
+  background-color: #ffa000;
+}
+
+.th-font {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #332a7c;
+}
+
+.th-searchbar {
+  background: #dfdfdf !important;
+  height: auto !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  border: none !important;
+  transition: none !important;
+}
+
+/* header for mobile version */
+
+@media only screen and (max-width: 768px) {
+  .th-mob-header {
+    z-index: 900;
+    top: 0;
+    position: fixed;
+    background: white;
+    width: 100%;
+  }
+}
+
+/* backdrop */
+.th-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #00000080;
+  z-index: 950;
+}
+
+/* side drawer */
+.th-side_drawer {
+  font-weight: 500;
+  padding-top: 10px;
+  height: 100%;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 350px;
+  z-index: 970;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-out;
+}
+
+.th-side_drawer.open {
+  transform: translateX(0);
+}
+
+.th-sidebar-logo {
+  width: 120px;
+}
+.th-sidebar-hr {
+  border: 1px solid #cccccc !important;
+  background: #cccccc;
+}
+
+.th-sidebar-list-item {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+}
+.th-sidebar-arrow,
+.th-sidebar-icon {
+  color: #444444;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 320px) {
+  .th-sidebar-list-item {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .th-sidebar-logo {
+    width: 96px;
+  }
+  .th-sidebar-hr {
+    border: 1px solid #cccccc !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: #cccccc;
+  }
+}
+/* side drawer ends */
+
+/* Bottom-Nav */
+.th-bottomNav {
+  width: 100%;
+  background: #fafafa;
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.th-link {
+  color: #959595;
+}
+.th-link:hover {
+  text-decoration: none;
+  color: #332a7c;
+}
+.th-link:active {
+  text-decoration: none;
+  color: #332a7c;
+}
+
+.th-link-title {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .th-hidden-md {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .th-link-title {
+    font-size: 8px;
+  }
+}
+
+/* for profile dropdown */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:focus {
+  background: #fff;
+}
+/* profile dropdown ends */

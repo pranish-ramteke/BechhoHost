@@ -1,0 +1,353 @@
+/* product top */
+.th-prod-left-img {
+  width: 160px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.th-prod-box {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  /* min-height: 430px; */
+}
+
+.th-prod-title,
+.th-prod-price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+  color: #332a7c;
+}
+
+.th-prod-price {
+  font-weight: 600;
+}
+
+.th-prod-location,
+.th-prod-description {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #332a7c;
+}
+
+.th-prod-location {
+  font-weight: bold;
+}
+
+.th-prod-offer {
+  background: #ffbe51;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #332a7c;
+  width: 200px;
+  border: none !important;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1120px) {
+  .th-prod-right-img {
+    width: 445px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .th-products-container {
+    margin-top: 4.5rem;
+  }
+
+  .th-prod-box {
+    box-shadow: none !important;
+    padding: 16px 0 !important;
+    min-height: fit-content;
+  }
+  .th-prod-price-location-box {
+    justify-content: space-between;
+  }
+  .th-prod-offer {
+    width: 120px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .th-prod-title,
+  .th-prod-price {
+    font-size: 18px;
+  }
+  .th-prod-title {
+    margin-bottom: 0 !important;
+  }
+  .th-prod-description {
+    font-size: 14px;
+  }
+  .th-prod-hr-line {
+    margin: 0 !important;
+    border-top: 0.5px solid #4d4681;
+  }
+}
+/* product top ends */
+
+/* product description */
+
+.th-prod-description-title,
+.th-similar-product-title /* similar products */ {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+  color: #332a7c;
+}
+
+.th-prod-description-box,
+.th-similar-prod-box /* similar products */ {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.th-prod-description-box {
+  max-height: 408px;
+  overflow-y: scroll;
+  /* -ms-overflow-style: none; */
+}
+/* .th-prod-description-box::-webkit-scrollbar {
+  display: none;
+} */
+
+/* custom scrollbar */
+/* width */
+.th-prod-description-box::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+.th-prod-description-box::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+/* Handle */
+.th-prod-description-box::-webkit-scrollbar-thumb {
+  background: #332a7c;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+/* custom scrollbar ends*/
+
+.th-description-list {
+  list-style: none !important;
+  padding: 0;
+}
+
+.th-list-item-ques,
+.th-list-item-ans {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #332a7c;
+}
+
+.th-list-item-ans {
+  font-weight: bold;
+  margin-left: 36px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+  .th-prod-description-box,
+  .th-similar-prod-box /* similar products */ {
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  .th-prod-description-title ,
+  .th-similar-product-title /* similar products */ {
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 24px;
+  }
+  .th-list-item-ques,
+  .th-list-item-ans {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .th-list-item-ans {
+    margin-left: 24px;
+    margin-top: 8px;
+  }
+}
+
+/* products description ends */
+
+/* popup */
+.th-prod-header-box {
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.th-prod-popup-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 45px;
+  color: #332a7c;
+}
+
+.th-prod-popup-close-txt {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #332a7c;
+  z-index: 100;
+}
+
+.th-prod-content-box {
+  padding: 40px 25px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.th-prod-offer-price {
+  border: 2px solid #958ecb;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #958ecb !important;
+  padding: 22px 15px;
+  font-size: 20px;
+}
+
+/* removes the efftes upon focus */
+.th-prod-offer-price:focus,
+.th-prod-offer-price:active {
+  box-shadow: none !important;
+  border-color: #958ecb !important ;
+}
+/*  */
+.th-prod-check-terms {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #332a7c;
+}
+
+/* range slider */
+.th-prod-range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2.5px;
+  background: #958ecb;
+  outline: none;
+}
+
+.th-prod-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0x;
+  height: 0px;
+  border-radius: 50%;
+  background: #5c5596;
+  cursor: pointer;
+}
+
+.th-prod-range-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #5c5596;
+  cursor: pointer;
+}
+
+/* range slider ends */
+
+.th-prod-min-price,
+.th-prod-max-price,
+.th-prod-max-price-tag,
+.th-prod-min-price-tag {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  color: #332a7c;
+}
+.th-prod-min-price,
+.th-prod-max-price {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.th-prod-max-price-tag,
+.th-prod-min-price-tag {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 780px) {
+  .th-prod-popup-box {
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .th-prod-content-box {
+    padding: 0px !important;
+  }
+
+  .th-prod-header-box {
+    justify-content: flex-start !important;
+    background: #fff;
+    padding-left: 0 !important;
+  }
+
+  .th-prod-popup-header {
+    font-size: 22px;
+  }
+
+  .th-prod-offer-price {
+    border: 1px solid #958ecb !important;
+    font-size: 18px;
+  }
+
+  .th-prod-check-terms {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .th-prod-min-price,
+  .th-prod-max-price {
+    font-size: 18px;
+  }
+
+  .th-prod-max-price-tag,
+  .th-prod-min-price-tag {
+    font-size: 14px;
+  }
+
+  .th-prod-mob-checkbox {
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .th-prod-check-terms {
+    font-size: 14px;
+  }
+}

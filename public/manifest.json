@@ -1,0 +1,26 @@
+{
+  "short_name": "Bechho",
+  "name": "Bechho | Sell Second hand items instantly, Free Classifieds in India, Mobiles and Tablets",
+  "description": "Sell and get cash for your secondhand and old phones, mobiles, tablets and other gadgets. Doorstep pickup with best resell value and device valuation. Sell old phones and get best price",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
